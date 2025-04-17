@@ -35,7 +35,7 @@ using System.Threading.Tasks;
         confirmation = new Confirmation();
         method = new string[] { "RTO", "(real-time)", "SKN", "RTGS", "BI", "FAST" };
     }
-    public static BankTransferConfig LoadOrDefault()
+    public static BankTransferConfig LoadOrDefault() 
     {
         CovidConfig config;
 
